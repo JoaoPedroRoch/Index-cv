@@ -86,15 +86,37 @@ body {
     padding-bottom: 5px;
 }
 
-.skill-list, .hobbies-list, .languages-list {
+.habilidades-list, .hobbies-list, .linguas-list {
     list-style-type: none;
     padding: 0;
 }
 
-.skill-list li, .hobbies-list li, .languages-list li {
+.habilidades-list li, .hobbies-list li, .linguas-list li {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
     font-size: 14px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center; 
+}
+th {
+    background-color: #f2f2f2;
+}
+td.satisfaz {
+    background-color: yellow; 
+}
+td.bom {
+    background-color: lightgreen; 
+}
+td.muito-bom {
+    background-color: darkgreen; 
+    color: white; 
 }
